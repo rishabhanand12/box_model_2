@@ -91,12 +91,15 @@ h2 {
     text-align: center;
     height: auto;
     margin: 0 10px;
+    
 }
-
+.span {
+    margin: 0 10px;
+}
 .circle {
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     
     border-radius: 50%;
    
@@ -126,16 +129,7 @@ h2 {
     
 }
 
-.line1 {
-    display: inline-block;
-    margin: 10px;
 
-    background: lightgrey;
-    height: 100px;
-    width: 180px;
-    
-    
-}
 
 .line{
     display: inline-block;
@@ -147,19 +141,12 @@ h2 {
 }
 
 .line2 {
-    border: 2px solid black ;
-}
-
-.block {
-    display: block;
-    border: 2px solid black;
-    
-    
+    border: 1px solid black ;
 }
 
 
 .line3 {
-    border: 2px solid black;
+    border: 1px solid black;
     box-sizing: border-box;
 }
 
